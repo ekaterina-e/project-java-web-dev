@@ -1,2 +1,2 @@
 # project-java-web-dev
-my project
+My project
