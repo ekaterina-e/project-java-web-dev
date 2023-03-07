@@ -1,2 +1,2 @@
 # project-java-web-dev
-My project
+My project for the course: Project Java and Web Devel-opment (DLBCSPJWD01)
