@@ -1,6 +1,7 @@
-// This file is a basic Express server.
+// In this file, we create a basic Express server.
+
 import express from "express";
-import cors from "cors";
+import cors from "cors"; // allows scripts that are run in the browser to interact with various resources.
 import dictionaryRouter from "./routes/urbanDictionary.js";
 
 // This line of code sets the port.
