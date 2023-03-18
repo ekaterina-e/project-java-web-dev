@@ -9,7 +9,7 @@ const exampleText = document.querySelector("#exampleText");
 const removeSquareBrackets = (text) => {
   return text.replace(/\[/g, "").replace(/\]/g, "");
 };
-// Fetches a random word, its meaning, & example from the local host 5000.
+// This function fetches a random word, its meaning, & example from the local host 5000.
 const fetchWordApi = () => {
   fetch("http://localhost:5000/api", {
     method: "GET",
@@ -32,10 +32,10 @@ const fetchWordApi = () => {
     .catch((err) => console.error(err));
 };
 
-// Fetches data from the local host 5000 when loading page
+// It fetches data from the local host 5000 when loading page
 fetchWordApi();
 
-// Fetches data from the local host 5000 when the user clicks Get a new word! button.
+// It fetches data from the local host 5000 when the user clicks Get a new word! button.
 newWordButton.addEventListener("click", () => fetchWordApi());
 
 // Twitter button
